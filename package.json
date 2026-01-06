@@ -1,0 +1,22 @@
+{
+  "name": "travis-testing",
+  "version": "1.0.0",
+  "description": "Simple JavaScript project with CI/CD pipeline",
+  "main": "greeter.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node greeter.js"
+  },
+  "keywords": [
+    "ci",
+    "cd",
+    "travis",
+    "testing"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
+
