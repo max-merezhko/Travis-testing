@@ -1,7 +1,3 @@
-/**
- * Unit tests for the greeter application
- */
-
 const { greet, greetWithTime } = require('./greeter');
 
 describe('Greeter', () => {
@@ -14,7 +10,7 @@ describe('Greeter', () => {
   });
 
   test('greets with empty string', () => {
-    expect(greet('')).toBe('Hello, !');
+    expect(greet('')).toBe('Hello, Guest!');
   });
 
   test('greetWithTime includes greeting and time of day', () => {

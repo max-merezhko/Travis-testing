@@ -1,8 +1,3 @@
-/**
- * Simple Greeter Application
- * A basic greeting utility to demonstrate CI/CD pipeline
- */
-
 function greet(name) {
   if (!name) {
     return "Hello, Guest!";
